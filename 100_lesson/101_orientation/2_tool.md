@@ -29,6 +29,8 @@
 
 ### MAC の場合
 
+<details><sammary>
+
 ```
 # gitが入っているか確認（おそらくMacに紐づいたものがインストールされているはず）
 ## 例）git version 2.24.3(Apple Git-128)
@@ -102,3 +104,5 @@ git -v
 
 # バージョンが(Apple Git-128) の様な表記がないものになっていればOK
 ```
+
+</sammary>
