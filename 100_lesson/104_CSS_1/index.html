@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!--　headにstyleタグを明記することでCSSを記載できる -->
+    <!-- 他にもCSSの利用方法はあるがそれは後々-->
+    <style type="text/css">
+      /* CSSのコメントの書き方はこれ（言語が変わったので、書き方も変わった） */
+      /* HTMLで表示したものに対して「どれの｛何を：どうしたい;｝」という形で記載する */
+
+      /* 同じPタグでも名前(id, class)を与えて指定することでそれのみを変更することが可能 */
+      /* idとclaseの違い */
+      /* idはユニーク(一意)なため同じidをつけることができません。そのため、タイトルなど唯一性が必要なものに適しています */
+      /* classは制限がないため、リストのように複数のものを同時に編集したい場合に便利です */
+      #two {
+        color: blue;
+        background-color: yellow;
+      }
+      .three {
+        color: green;
+        font-weight: 900;
+      }
+      p {
+        color: red;
+        background-color: aqua;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hello NewWorld</p>
+    <p id="two">hello NewWorld2</p>
+    <p class="three">hello NewWorld3</p>
+  </body>
+</html>
