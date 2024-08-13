@@ -9,7 +9,7 @@
 
 詳細は下記参照
 
-- コードのみの`./min/sample.html`
+- コードのみの`./min/index.html`
 - 解説コメント付きの`./min/explain.html`
 
 ## 2.タグへの理解
