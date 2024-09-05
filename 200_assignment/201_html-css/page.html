@@ -1,1 +1,105 @@
 <!-- ここにHTMLファイルを記載 -->
+<!-- タスク分解 -->
+<!-- 
+・[x] 事前準備
+ - [x] HTMLを表示する
+ - [x] headの準備
+ - [x] title
+ - [x] ファビコンの設定(youtubeのマークみたいなやつ)
+ - [x] HTMLとCSSのファイルを分ける
+
+・[x]Header
+ - [x]「prpfile」画像を作る
+ - [x]「About」リンクボタンを作る
+ - [x]「Bicyde」リンクボタンを作る
+ - [x] profileの画像サイズ　横120×縦40
+ - [x]全て縦を中央揃え
+ - [x] 幅は 960px で固定
+ - [x]ボタンとリンクを中央揃えにして左右に分ける
+ - [x]リンクは全て下のページに飛べるように
+ 　　file:///C:/Users/81803/Documents/programming/PracticeProgramming/200_assignment/201_html-css/page.html#
+
+・main
+ - [x]大きい自転車の画像を添付
+ - 「About」「Bicycle」の仕様を調べる
+ - [x]人の画像を添付
+ - [x]人の名前を記載
+ - [x]人のプロフィールを記載
+ - 画像を三枚添付する
+ - 画像のタイトルと詳細を記載する
+
+・Footer
+ - コピーライトを下部に記載 
+-->
+<!DOCTYPE html>
+<!-- 鍵カッコで囲まれているのはタグ -->
+<html lang="ja">
+    <head>
+    <!-- 最初にタグ名を書いてエンターを押してから>を付ける -->
+    <!-- スペースはTabキー -->
+        <title>Profile</title>
+        <link rel="icon" href="./img/favicon.ico"/>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="page.css"/>
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/logo.svg" alt="logo" id="headerImage"/>
+            <!-- altは説明 -->
+            <div>
+            <input type="button" value="About" onClick="location.href='#'" id="headerAboutLink">
+            <input type="button" value="Bicyde" onClick="location.href='#'" id="headeBicydeLink">
+            </div>
+            <!-- 絶対パス＝パソコンのルートからのパス -->
+            <!-- 相対パス＝現在のファイルから対象のファイルまでの差分を出すもの -->
+             <!-- IDは「#」クラスは「.」 -->
+        </header>
+
+        <img src="./img/mainvisual.jpg" id="mainvisual"/>
+
+        <main>
+            <div>
+                <p id="about">About</p>
+            </div>
+
+            <div id="aboutContent">
+                <img src="./img/about.jpg" id="aboutJpg"/>
+                <div>
+                    <p id="kakeru">KAKERU MIYAICHI</p>
+                    <p id="text1">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>   
+            </div>
+
+            <div>
+                <p id="bicycle">Bicycle</p>
+            </div>
+
+            <div id="bicyclePicture">
+                <img src="./img/bicycle1.jpg" id="bicycle1">
+                <img src="./img/bicycle2.jpg" id="bicycle2">
+                <img src="./img/bicycle3.jpg" id="bicycle3">
+            </div>
+
+            <div id="titleMain">
+                <p id="title1">タイトルタイトル</p>
+                <p id="title2">タイトルタイトル</p>
+                <p id="title3">タイトルタイトル</p>
+            </div>
+
+            <div id="textMain">
+                <p id="text2">テキストテキストテキスト</p>
+                <p id="text3">テキストテキストテキスト</p>
+                <p id="text4">テキストテキストテキスト</p>
+            </div>
+
+        </main>
+            <div id="copyRight">© 2020 Profile</div>
+        <footer>
+
+        </footer>
+    </body>
+
+
+
+</html>
