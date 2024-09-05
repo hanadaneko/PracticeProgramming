@@ -12,7 +12,7 @@
 2. CSSファイルを作成する
 3. Styleタグ内をCSSファイルに転記する
 4. Styleタグを削除する
-5. <link rel="stylesheet" type="text/css" href=”practice.css">をHeadに挿入する
+5. <link rel="stylesheet" type="text/css" href="index.css">をHeadに挿入する
 ```
 
 > [!IMPORTANT]POINT
