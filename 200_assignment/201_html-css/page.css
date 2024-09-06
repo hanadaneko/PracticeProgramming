@@ -30,12 +30,19 @@ header {
     
 }
 
-#mainvisual {
+#mainVisual {
     width: 100%;
     height: 600px;
     object-fit: cover;
 
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
 
 #about {
     font-size: 32px;
@@ -81,7 +88,7 @@ header {
 }
 
 #aboutContent {
-    /* text-align: center; */
+    text-align: center;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -170,9 +177,8 @@ header {
 }
 
 #copyRight {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0 0 10px 0;
     font-size: 10px;
-    text-decoration-color: #383E45;
+    color: #383E45;
 }
