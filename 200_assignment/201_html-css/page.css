@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* multiple */
 
 main {
@@ -64,7 +68,6 @@ main {
 /* main image */
 
 #mainImage {
-  width: 100%;
   /* 無限に大きくし画像表示範囲が 崩れるのを防止 */
   max-width: 1920px;
   height: 600px;
@@ -89,4 +92,15 @@ main {
 /* 文言が非常に長い場合でも読みやすいように */
 #aboutText {
   max-width: 600px;
+}
+
+/* bicycle */
+
+#bicycleCardList {
+  display: flex;
+  gap: 30px;
+}
+
+#bicycleCardList li {
+  flex: 1;
 }
