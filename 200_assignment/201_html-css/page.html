@@ -7,7 +7,7 @@
     <title>assignment_201</title>
   </head>
   <body>
-    <header class="contentWrapper">
+    <header id="header" class="wrapper">
       <img src="./img/logo.svg" alt="logo" id="headerLogo" />
       <nav>
         <ul id="headerMenuItems">
@@ -19,12 +19,18 @@
     </header>
     <main>
       <img src="./img/mainvisual.jpg" alt="mainImage" id="mainImage" />
-      <section>
-        <div>
-          <!-- TODO: abotTitle -->
-        </div>
-        <div>
-          <!-- TODO: aboutContents -->
+      <section class="contentWrapper sectionWapper">
+        <div class="sectionTitle">About</div>
+        <div id="aboutContentWapper">
+          <img src="./img/about.jpg" alt="about" id="aboutImage" />
+          <div id="aboutTexts">
+            <div class="innerName">KAKERU MIYAICHI</div>
+            <div class="innerDescribe">
+              テキストテキストテキストテキストテキストテキストテキスト<br />
+              テキストテキストテキストテキストテキストテキストテキスト<br />
+              テキストテキストテキストテキストテキストテキストテキスト
+            </div>
+          </div>
         </div>
       </section>
       <section>
@@ -36,6 +42,6 @@
         </div>
       </section>
     </main>
-    <footer>© 2020 Profile</footer>
+    <footer>© 2020 about</footer>
   </body>
 </html>
