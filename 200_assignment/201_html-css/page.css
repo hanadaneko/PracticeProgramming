@@ -3,6 +3,7 @@ body{
     margin: 0;
     margin-right: auto;
     margin-left : auto;
+    /* テスト */
 }
 
 header {
@@ -117,21 +118,7 @@ main {
     margin: 0 8.1px;
 }
 
-#bicycle1 {
-    width: 262.8px;
-    height: 174px;
-    object-fit: fill;
-    margin: 0 8.1px;
-}
-
-#bicycle2 {
-    width: 262.8px;
-    height: 174px;
-    object-fit: fill;
-    margin: 0 8.1px;
-}
-
-#bicycle3 {
+.bicycleContent {
     width: 262.8px;
     height: 174px;
     object-fit: fill;
@@ -145,15 +132,7 @@ main {
     font-weight: bold;
 }
 
-#title1 {
-    margin: 10px 75px 10px 75px;
-}
-
-#title2 {
-    margin: 10px 75px 10px 75px;
-}
-
-#title3 {
+.titleContent {
     margin: 10px 75px 10px 75px;
 }
 
@@ -164,15 +143,7 @@ main {
     word-break: normal;
 }
 
-#text2 {
-    margin: 0 53px 110px 53px;
-}
-
-#text3 {
-    margin: 0 53px 110px 53px;
-}
-
-#text4 {
+.textContent {
     margin: 0 53px 110px 53px;
 }
 
