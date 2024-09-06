@@ -178,6 +178,7 @@ main {
 
 #copyRight {
     text-align: center;
+    /*text-align: centerに修正 */
     margin: 0 0 10px 0;
     font-size: 10px;
     color: #383E45;
