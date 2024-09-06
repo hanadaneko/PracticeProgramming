@@ -15,8 +15,12 @@ img {
 /* multiple */
 
 main {
+  display: flex;
+  flex-direction: column;
   color: #383e45;
   font-size: 0.9rem;
+  gap: 60px;
+  margin-bottom: 110px;
 }
 .contentWrapper {
   max-width: 1280px;
