@@ -42,6 +42,8 @@ header {
 
 #mainImage {
   width: 100%;
+  /* 無限に大きくし画像表示範囲が 崩れるのを防止 */
+  max-width: 1920px;
   height: 600px;
   object-fit: cover;
 }
