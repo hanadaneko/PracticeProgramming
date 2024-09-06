@@ -21,7 +21,7 @@
 ### デザイン
 
 - Figma 参照
-- Figma の利用方法は `doc/figma` 参照
+- Figma の利用方法は `doc/figma.md` 参照
 
 ### 仕様
 
