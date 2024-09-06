@@ -67,9 +67,10 @@ main {
     height: 100px; */
 }
 
-#kakeru {
+#nameKakeru {
     font-size: 16px;
     font-weight: bold;
+    text-align: left;
 
     /* position: relative;
     left: 504px;
@@ -77,9 +78,10 @@ main {
     width: 161px; */
 }
 
-#text1 {
+#textEnumeration {
     font-size: 14.4px;
     word-break: normal;
+    text-align: left;
     /* position: relative;
     left: 504px;
     top: -126px;
